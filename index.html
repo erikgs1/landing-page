@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lading Page</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/style.css">
 </head>
 <body>
     <div class="container">
@@ -99,8 +100,53 @@
             <div class="row">
                 <div class="col-12">
                     <form>
-                        <div class="form-head">
-                            <h3>Fale com o Corretor</h3>
+                        <div class="form">
+                            <div class="form-head">
+                                <h3>Fale com o Corretor</h3>
+                                <p class="form--description">
+                                    Deixe sua mensagem aqui para que um de nossos
+                                    corretores entre em contato com você.
+                                </p>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <label>Nome</label>
+                                    <input type="text" placeholder="Nome Completo"> 
+                                </div>
+                                <div class="tel">
+                                    <label>Telefone para contato</label>
+                                    <input type="number" placeholder="XX-XXXX-XXXX"> 
+                                </div>
+                                <div class="email">
+                                    <label>E-mail</label>
+                                    <input type="email" placeholder="Digite seu e-mail"> 
+                                </div>
+                                <div class="enterprise">
+                                    <label>Empreendimento</label>
+                                    <select name="enterprise">
+                                        <option value="valor1">Valor 1</option> 
+                                        <option value="valor2">Valor 2</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                </div>
+                                <div class="message">
+                                    <label>Mensagem</label>
+                                    <textarea name="message" placeholder="Deixe aqui sua mensagem" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="name d-none d-md-block">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="chekcbox">Li e concordo com a Política de Privacidade</label>
+                                </div>
+                                <div class="send">
+                                    <button>Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="regulation">
+                            <div class="regulation--title">
+                            </div>
+                            <div class="regulation--body">
+                            </div>
                         </div>
                     </form>
                 </div>
