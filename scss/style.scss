@@ -6,3 +6,58 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+
+body{
+    p{
+        font-size: 1.2rem;
+        color: white;
+        margin: 0;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fea729;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #fea729;
+        margin: 0;
+    }
+}
+.title-content{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    span{
+        width: 100%;
+        &:before{
+            content: "";
+            width: 90%;
+            height: 5px;
+            background-color: black;
+            margin: 0 auto;
+            position: absolute;
+            margin-left: -45%;
+        }
+    }
+}
+.building-body{
+    border: 2px solid #fea729;
+    background-color: black;
+    padding: 10px;
+    margin: 20px 0;
+    .building--head{
+        width: 100%;
+        text-align: center;
+    }
+    .building--image{
+        img{
+            width: 100%;
+        }
+    }
+    .building--footer{
+        text-align: center;
+    }
+}
+
