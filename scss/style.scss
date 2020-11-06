@@ -138,7 +138,6 @@ body{
     border: 2px solid #fea729;
     height: 800px;
     background-color: #f8f8f8;
-    overflow-y: scroll;
         h2{
             font-size: 2.2rem;
             color: #656565;
@@ -148,17 +147,62 @@ body{
         P{
             overflow-y: scroll;
             color: #656565;
-            
-    overflow-y: hidden;
         }
 }
-
-/* Responsive */
+.text--scroll{
+    overflow-y: scroll;
+    p{
+        overflow-y: hidden; 
+    }
+}
+/* Desktop */
 
 @include media-breakpoint-up(sm) { 
     .title-content{
         h2{
             font-size: 3.5rem;
         }
-    }
+    }   
+    .form{
+        .info{
+            .privacy{
+                width: 100%;
+                .privacy--body{
+                    width: 100%;
+                    height: 250px;
+                    padding: 30px;
+                    margin-bottom: 30px;
+                    border: 3px solid  rgba(#ddd1c5, 1);
+                    background-color: #f8f8f8;
+                    border-radius: 3px;
+                    p{
+                        color: black;
+                    }
+                    h2{
+                        font-size: 2rem;
+                        color: #656565;
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+            .terms-check{
+                input{
+                    width: 35px;
+                    background-color: #f8f8f8;
+                }
+                label{
+                    width: auto;
+                    clear: both;
+                }
+            }
+            .send{
+                button{
+                    background-color: #969595;
+                }
+            }
+        }
+    }   
 }   
+.regulation{
+    height: 400px;
+}
