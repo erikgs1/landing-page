@@ -63,6 +63,8 @@ body{
 .form{
     border: 2px solid #fea729;
     padding: 30px;
+    margin-bottom: 50px;
+    background-color: #f8f8f8;
     .form-head{
         margin-bottom: 50px;
         h3{
@@ -80,5 +82,73 @@ body{
         label{
             width: 100%;
         }
+        input{
+            width: 100%;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin-bottom: 30px;
+            border: 3px solid  rgba(#ddd1c5, 1);
+            border-radius: 3px;
+            background-color: #f8f8f8;
+        }
+        select{
+            width: 100%;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin-bottom: 30px;
+            border: 3px solid  rgba(#ddd1c5, 1);
+            border-radius: 3px;
+            color: #656565;
+            background-color: #f8f8f8;
+            option{
+                font-size: 1rem;
+                border: 3px solid  rgba(#ddd1c5, 1);
+                border-radius: 3px;
+                color: #656565;
+                background-color: #f8f8f8;
+            }
+        }
+        textarea{
+            width: 100%;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin-bottom: 30px;
+            border: 3px solid  rgba(#ddd1c5, 1);
+            border-radius: 3px;
+            color: #656565;
+            background-color: #f8f8f8;
+        }
+        .send{
+            button{
+                font-size: 1rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: white;
+                background-color: #343132;
+                padding: 20px 30px;
+                border: none;
+                border-radius: 3px;
+            }
+        }
     }
+}
+.regulation{
+    padding: 30px;
+    margin-bottom: 50px;
+    border: 2px solid #fea729;
+    height: 800px;
+    background-color: #f8f8f8;
+    overflow-y: scroll;
+        h2{
+            font-size: 2.2rem;
+            color: #656565;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        P{
+            overflow-y: scroll;
+            color: #656565;
+            
+    overflow-y: hidden;
+        }
 }
